@@ -1,6 +1,10 @@
 .item h3 {
   margin: 0.5rem 0;
-  font-size: 1.25rem;
+  font-size: 3vh;
+}
+
+.item{
+  font-size: 2vh;
 }
 
 .item header {
@@ -24,4 +28,19 @@
 .actions {
   display: flex;
   justify-content: flex-end;
+}
+
+.item img {
+  width: 60vh;
+  border-radius: 30px;
+  opacity: 0.7;
+  margin-bottom: 1vh;
+}
+
+.item img:hover {
+  opacity: 1;
+}
+
+.item span{
+  font-weight: bold;
 }

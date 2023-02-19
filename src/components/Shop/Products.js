@@ -1,19 +1,62 @@
 import ProductItem from './ProductItem';
 import classes from './Products.module.css';
+import {useEffect, useState} from "react";
 
-const DUMMY_PRODUCTS = [
-    {id: 'p1', price: 6, title: 'My first book', description: 'alooo bree'},
-    {id: 'p2', price: 5, title: 'My second book', description: 'alooo breealooo breealooo bree'},
-]
+const url = 'https://react-http-6fb98-default-rtdb.firebaseio.com/cigars.json';
 
 const Products = () => {
-    const books = DUMMY_PRODUCTS.map(book =>
+
+    const [cigars, setCigars] = useState([]);
+    const [isLoading, setIsLoading] = useState(true);
+    const [httpError, setHttpError] = useState(false);
+
+    useEffect(() => {
+        const fetchCigars = async () => {
+            const res = await fetch(url);
+
+            if (!res.ok) {
+                throw new Error('sth went wrong');
+            }
+
+            const resData = await res.json();
+
+            const loadedCigars=[];
+
+            for (const key in resData) {
+                loadedCigars.push({
+                    id: key,
+                    title: resData[key].name,
+                    dimensions: resData[key].dimensions,
+                    price: resData[key].price,
+                    madeBy: resData[key].madeBy,
+                    image: resData[key].image,
+                    boxDate: resData[key].boxDate,
+                });
+            }
+
+            setCigars(loadedCigars);
+            setIsLoading(false);
+        }
+
+        try {
+            fetchCigars();
+        }
+        catch (e){
+            setIsLoading(false);
+            setHttpError(e.message);
+        }
+    }, []);
+
+    const books = cigars.map(cigars =>
         <ProductItem
-            key={book.id}
-            id={book.id}
-            title={book.title}
-            price={book.price}
-            description={book.description}
+            key={cigars.id}
+            id={cigars.id}
+            title={cigars.title}
+            price={cigars.price}
+            dimensions={cigars.dimensions}
+            madeBy={cigars.madeBy}
+            boxDate={cigars.boxDate}
+            image={cigars.image}
         />
     );
 

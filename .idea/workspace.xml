@@ -1,7 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="727b4407-d121-4c07-87c0-e495bffff8e2" name="Changes" comment="" />
+    <list default="true" id="727b4407-d121-4c07-87c0-e495bffff8e2" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/assets/bckg.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Cart/Cart.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Cart/Cart.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Cart/CartButton.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Cart/CartButton.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Layout/MainHeader.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Layout/MainHeader.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Layout/MainHeader.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Layout/MainHeader.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Shop/ProductItem.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Shop/ProductItem.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Shop/ProductItem.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Shop/ProductItem.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Shop/Products.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Shop/Products.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/UI/Card.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/UI/Card.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/store/cart-slice.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/store/cart-slice.js" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -14,10 +30,14 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="2I31owv0HCby3ueLjPtENYyOdZW" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -27,7 +47,11 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "/home/boris/Documents/backup-25.10.2022/b/react/redux-cart-app/src/components/UI",
+    "last_opened_file_path": "/home/boris/Documents/backup-25.10.2022/b/react/course/redux-cart-app/src/assets",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
     "ts.external.directory.path": "/home/boris/.local/share/JetBrains/Toolbox/apps/WebStorm/ch-0/222.4345.14/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external",
     "vue.rearranger.settings.migration": "true"
@@ -35,6 +59,7 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/assets" />
       <recent name="$PROJECT_DIR$/src/components/UI" />
     </key>
   </component>
@@ -47,11 +72,25 @@
       <option name="presentableId" value="Default" />
       <updated>1669395631615</updated>
       <workItem from="1669395632766" duration="15596000" />
-      <workItem from="1669655945254" duration="19416000" />
+      <workItem from="1669655945254" duration="19562000" />
+      <workItem from="1669694485925" duration="86000" />
+      <workItem from="1676658451536" duration="1407000" />
+      <workItem from="1676829499362" duration="8634000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>

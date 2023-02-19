@@ -1,7 +1,12 @@
 .cart {
-  max-width: 30rem;
+  max-width: 80vh;
   background-color: #313131;
   color: white;
+  opacity: 0.6;
+}
+
+.cart:hover {
+  opacity: 1;
 }
 
 .cart h2 {

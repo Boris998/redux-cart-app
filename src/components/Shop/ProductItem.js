@@ -8,7 +8,7 @@ const ProductItem = (props) => {
         const cartItems = useSelector(state => state.cart.items);*/
     const dispatch = useDispatch();
 
-    const {title, price, description, id} = props;
+    const {title, price, id} = props;
 
     const addToCartHandler = () => {
 
@@ -23,7 +23,10 @@ const ProductItem = (props) => {
                     <h3>{title}</h3>
                     <div className={classes.price}>${price.toFixed(2)}</div>
                 </header>
-                <p>{description}</p>
+                <p><span>Dimensions: </span>{props.dimensions}</p>
+                <p><span>Made By: </span>{props.madeBy}</p>
+                <p><span>Box Date: </span>{props.boxDate}</p>
+                <img src={props.image} alt='asd'/>
                 <div className={classes.actions}>
                     <button onClick={addToCartHandler}>Add to Cart</button>
                 </div>
