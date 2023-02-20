@@ -27,6 +27,7 @@ const Products = () => {
                     id: key,
                     title: resData[key].name,
                     dimensions: resData[key].dimensions,
+                    strength: resData[key].strength,
                     price: resData[key].price,
                     madeBy: resData[key].madeBy,
                     image: resData[key].image,
@@ -53,6 +54,7 @@ const Products = () => {
             id={cigars.id}
             title={cigars.title}
             price={cigars.price}
+            strength={cigars.strength}
             dimensions={cigars.dimensions}
             madeBy={cigars.madeBy}
             boxDate={cigars.boxDate}

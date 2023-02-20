@@ -5,7 +5,7 @@ import {cartActions} from "./cart-slice";
 export const fetchCartData = () => {
     return async (dispatch) => {
         const fetchData = async () => {
-            const response = await fetch('https://http-req-redux-cart-app-default-rtdb.europe-west1.firebasedatabase.app/cart.json');
+            const response = await fetch('https://react-http-6fb98-default-rtdb.firebaseio.com/cart.json');
 
             if (!response.ok) {
                 throw new Error('Could not fetch cart data');
@@ -40,7 +40,7 @@ export const sendCartData = (cart) => {
         }));
 
         const sendReq = async () => {
-            const response = await fetch('https://http-req-redux-cart-app-default-rtdb.europe-west1.firebasedatabase.app/cart.json', {
+            const response = await fetch('https://react-http-6fb98-default-rtdb.firebaseio.com/cart.json', {
                 method: 'PUT',
                 body: JSON.stringify({
                     items: cart.items || [],

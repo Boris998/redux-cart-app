@@ -8,11 +8,7 @@ const CartItem = (props) => {
 
     //this action wants the id for a payload
     const addItemHandler = () => {
-        dispatch(cartActions.addItemToCart({
-            id,
-            title,
-            price
-        }));
+        dispatch(cartActions.addItemToCart({id, title, price}));
     };
 
     //this action wants the id for a payload

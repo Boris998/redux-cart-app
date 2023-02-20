@@ -4,19 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="727b4407-d121-4c07-87c0-e495bffff8e2" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/assets/bckg.jpeg" afterDir="false" />
+    <list default="true" id="727b4407-d121-4c07-87c0-e495bffff8e2" name="Changes" comment="finished with minor errors">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Cart/Cart.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Cart/Cart.module.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Cart/CartButton.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Cart/CartButton.module.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Layout/MainHeader.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Layout/MainHeader.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Layout/MainHeader.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Layout/MainHeader.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Cart/CartItem.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Cart/CartItem.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/Shop/ProductItem.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Shop/ProductItem.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Shop/ProductItem.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Shop/ProductItem.module.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/Shop/Products.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Shop/Products.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/UI/Card.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/UI/Card.module.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/store/cart-slice.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/store/cart-slice.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/store/cart-actions.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/store/cart-actions.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -75,8 +68,16 @@
       <workItem from="1669655945254" duration="19562000" />
       <workItem from="1669694485925" duration="86000" />
       <workItem from="1676658451536" duration="1407000" />
-      <workItem from="1676829499362" duration="8634000" />
+      <workItem from="1676829499362" duration="11110000" />
     </task>
+    <task id="LOCAL-00001" summary="finished with minor errors">
+      <created>1676845243594</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1676845243594</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -92,5 +93,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="finished with minor errors" />
+    <option name="LAST_COMMIT_MESSAGE" value="finished with minor errors" />
   </component>
 </project>

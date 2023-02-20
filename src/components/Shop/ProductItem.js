@@ -24,6 +24,7 @@ const ProductItem = (props) => {
                     <div className={classes.price}>${price.toFixed(2)}</div>
                 </header>
                 <p><span>Dimensions: </span>{props.dimensions}</p>
+                <p><span>Strength: </span>{props.strength}</p>
                 <p><span>Made By: </span>{props.madeBy}</p>
                 <p><span>Box Date: </span>{props.boxDate}</p>
                 <img src={props.image} alt='asd'/>
