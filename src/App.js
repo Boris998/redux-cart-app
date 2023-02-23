@@ -1,6 +1,5 @@
 import Cart from './components/Cart/Cart';
 import Layout from './components/Layout/Layout';
-import Products from './components/Shop/Products';
 import {useDispatch, useSelector} from "react-redux";
 import {Fragment, useEffect} from "react";
 import Notification from "./components/UI/Notification";
@@ -39,7 +38,7 @@ const App = () => {
             />}
             <Layout>
                 {renderUICart && <Cart/>}
-                <Products/>
+
             </Layout>
         </Fragment>
     );

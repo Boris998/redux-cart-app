@@ -4,12 +4,26 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="727b4407-d121-4c07-87c0-e495bffff8e2" name="Changes" comment="finished with minor errors">
+    <list default="true" id="727b4407-d121-4c07-87c0-e495bffff8e2" name="Changes" comment="bugfix, some warnings left to be handled">
+      <change afterPath="$PROJECT_DIR$/src/components/Layout/HomePage.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Layout/HomePage.module.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Shop/WiskeyProducts/WhiskeyProductItem.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Shop/WiskeyProducts/WhiskeyProductItem.module.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Shop/WiskeyProducts/WhiskeyProducts.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Shop/WiskeyProducts/WhiskeyProducts.module.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Cart/CartItem.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Cart/CartItem.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Shop/ProductItem.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Shop/ProductItem.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Shop/Products.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Shop/Products.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/store/cart-actions.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/store/cart-actions.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Cart/Cart.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Cart/Cart.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Layout/Layout.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Layout/Layout.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Layout/MainHeader.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Layout/MainHeader.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Layout/MainHeader.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Layout/MainHeader.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Shop/ProductItem.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Shop/CigarProducts/CigarProductItem.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Shop/ProductItem.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Shop/CigarProducts/CigarProductItem.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Shop/Products.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Shop/CigarProducts/CigarProducts.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Shop/Products.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Shop/CigarProducts/CigarProducts.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/store/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/store/index.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -19,6 +33,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="CSS File" />
         <option value="JavaScript File" />
       </list>
     </option>
@@ -40,7 +55,8 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "/home/boris/Documents/backup-25.10.2022/b/react/course/redux-cart-app/src/assets",
+    "last_opened_file_path": "/home/boris/Documents/backup-25.10.2022/b/react/course/quotes-router-app",
+    "list.type.of.created.stylesheet": "CSS",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -52,8 +68,12 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/components/Shop" />
       <recent name="$PROJECT_DIR$/src/assets" />
       <recent name="$PROJECT_DIR$/src/components/UI" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/components/Shop/CigarProducts" />
     </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -68,7 +88,10 @@
       <workItem from="1669655945254" duration="19562000" />
       <workItem from="1669694485925" duration="86000" />
       <workItem from="1676658451536" duration="1407000" />
-      <workItem from="1676829499362" duration="11110000" />
+      <workItem from="1676829499362" duration="11353000" />
+      <workItem from="1676905780959" duration="1600000" />
+      <workItem from="1677090404190" duration="22066000" />
+      <workItem from="1677170874092" duration="3466000" />
     </task>
     <task id="LOCAL-00001" summary="finished with minor errors">
       <created>1676845243594</created>
@@ -77,7 +100,14 @@
       <option name="project" value="LOCAL" />
       <updated>1676845243594</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="bugfix, some warnings left to be handled">
+      <created>1676853680997</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1676853680997</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -96,6 +126,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="finished with minor errors" />
-    <option name="LAST_COMMIT_MESSAGE" value="finished with minor errors" />
+    <MESSAGE value="bugfix, some warnings left to be handled" />
+    <option name="LAST_COMMIT_MESSAGE" value="bugfix, some warnings left to be handled" />
   </component>
 </project>

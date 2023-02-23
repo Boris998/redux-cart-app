@@ -1,10 +1,10 @@
-import ProductItem from './ProductItem';
-import classes from './Products.module.css';
+import CigarProductItem from './CigarProductItem';
+import classes from './CigarProducts.module.css';
 import {useEffect, useState} from "react";
 
 const url = 'https://react-http-6fb98-default-rtdb.firebaseio.com/cigars.json';
 
-const Products = () => {
+const CigarProducts = () => {
 
     const [cigars, setCigars] = useState([]);
     const [isLoading, setIsLoading] = useState(true);
@@ -49,7 +49,7 @@ const Products = () => {
     }, []);
 
     const books = cigars.map(cigars =>
-        <ProductItem
+        <CigarProductItem
             key={cigars.id}
             id={cigars.id}
             title={cigars.title}
@@ -72,4 +72,4 @@ const Products = () => {
     );
 };
 
-export default Products;
+export default CigarProducts;

@@ -18,3 +18,27 @@
   margin: 0;
   padding: 0;
 }
+
+.nav {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px;
+}
+
+.nav li {
+  padding: 10px 5vh;
+  color: whitesmoke;
+  font-size: 2vh;
+  text-decoration: none;
+
+}
+
+.nav li:hover {
+  color: #ff6e6e;
+  border-bottom: 5px inset #ff6e6e;
+  background: rgba(255, 110, 110, 0.23);
+}
+
+
