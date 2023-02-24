@@ -10,3 +10,14 @@
   margin: 0;
   padding: 0;
 }
+
+.products select {
+  margin: -1.8vh auto;
+  width: 30vh;
+  height: 4vh;
+  font-size: 1.2em;
+  border-radius: 20px 20px 0 0;
+  background-color: rgba(255, 110, 110, 0.84);
+  text-align: center;
+  display: block;
+}

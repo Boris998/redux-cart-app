@@ -9,6 +9,8 @@ const WhiskeyProducts = () => {
     const [whiskey, setWhiskey] = useState([]);
     const [isLoading, setIsLoading] = useState(true);
     const [httpError, setHttpError] = useState(false);
+    const [sortOrder, setSortOrder] = useState('');
+
 
     useEffect(() => {
         const fetchWhiskey = async () => {
@@ -20,7 +22,7 @@ const WhiskeyProducts = () => {
 
             const resData = await res.json();
 
-            const loadedWhiskey=[];
+            const loadedWhiskey = [];
 
             for (const key in resData) {
                 loadedWhiskey.push({
@@ -39,14 +41,25 @@ const WhiskeyProducts = () => {
 
         try {
             fetchWhiskey();
-        }
-        catch (e){
+        } catch (e) {
             setIsLoading(false);
             setHttpError(e.message);
         }
     }, []);
 
-    const whiskeys = whiskey.map(whiskey =>
+    const handleSelect = (e) => {
+        e.preventDefault();
+        setSortOrder(e.target.value);
+    }
+
+    useEffect(() => {
+        if (sortOrder === 'popularity') setWhiskey(whiskey);
+        else if (sortOrder === 'low-high') setWhiskey(whiskey.sort((a, b) => b.price - a.price));
+        else if (sortOrder === 'high-low') setWhiskey(whiskey.sort((a, b) => a.price - b.price));
+    }, [sortOrder, whiskey]);
+
+
+    const whiskeyList = whiskey.map(whiskey =>
         <WhiskeyProductItem
             key={whiskey.id}
             id={whiskey.id}
@@ -61,8 +74,13 @@ const WhiskeyProducts = () => {
     return (
         <section className={classes.products}>
             <h2>Buy your favorite products</h2>
+            <select value={sortOrder} onChange={handleSelect}>
+                <option value="popularity">Popularity</option>
+                <option value="low-high">Sort price (low-high)</option>
+                <option value="high-low">Sort price (high-low)</option>
+            </select>
             <ul>
-                {whiskeys}
+                {isLoading || whiskeyList}
             </ul>
         </section>
     );

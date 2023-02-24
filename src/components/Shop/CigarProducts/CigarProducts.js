@@ -9,6 +9,8 @@ const CigarProducts = () => {
     const [cigars, setCigars] = useState([]);
     const [isLoading, setIsLoading] = useState(true);
     const [httpError, setHttpError] = useState(false);
+    const [sortOrder, setSortOrder] = useState('');
+
 
     useEffect(() => {
         const fetchCigars = async () => {
@@ -20,7 +22,7 @@ const CigarProducts = () => {
 
             const resData = await res.json();
 
-            const loadedCigars=[];
+            const loadedCigars = [];
 
             for (const key in resData) {
                 loadedCigars.push({
@@ -41,32 +43,51 @@ const CigarProducts = () => {
 
         try {
             fetchCigars();
-        }
-        catch (e){
+        } catch (e) {
             setIsLoading(false);
             setHttpError(e.message);
         }
     }, []);
 
-    const books = cigars.map(cigars =>
+
+    const handleSelect = (e) => {
+        e.preventDefault();
+        setSortOrder(e.target.value);
+    }
+
+    useEffect(() => {
+        if (sortOrder === 'popularity') setCigars(cigars);
+        else if (sortOrder === 'low-high') setCigars(cigars.sort((a, b) => b.price - a.price));
+        else if (sortOrder === 'high-low')  setCigars(cigars.sort((a, b) => a.price - b.price));
+    }, [sortOrder, cigars]);
+
+
+    const cigarList = cigars.map(cigar =>
         <CigarProductItem
-            key={cigars.id}
-            id={cigars.id}
-            title={cigars.title}
-            price={cigars.price}
-            strength={cigars.strength}
-            dimensions={cigars.dimensions}
-            madeBy={cigars.madeBy}
-            boxDate={cigars.boxDate}
-            image={cigars.image}
+            key={cigar.id}
+            id={cigar.id}
+            title={cigar.title}
+            price={cigar.price}
+            strength={cigar.strength}
+            dimensions={cigar.dimensions}
+            madeBy={cigar.madeBy}
+            boxDate={cigar.boxDate}
+            image={cigar.image}
         />
     );
+
+
 
     return (
         <section className={classes.products}>
             <h2>Buy your favorite products</h2>
+            <select value={sortOrder} onChange={handleSelect}>
+                <option value="popularity">Popularity</option>
+                <option value="low-high">Sort price (low-high)</option>
+                <option value="high-low">Sort price (high-low)</option>
+            </select>
             <ul>
-                {books}
+                {isLoading || cigarList}
             </ul>
         </section>
     );

@@ -4,26 +4,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="727b4407-d121-4c07-87c0-e495bffff8e2" name="Changes" comment="bugfix, some warnings left to be handled">
-      <change afterPath="$PROJECT_DIR$/src/components/Layout/HomePage.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Layout/HomePage.module.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Shop/WiskeyProducts/WhiskeyProductItem.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Shop/WiskeyProducts/WhiskeyProductItem.module.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Shop/WiskeyProducts/WhiskeyProducts.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Shop/WiskeyProducts/WhiskeyProducts.module.css" afterDir="false" />
+    <list default="true" id="727b4407-d121-4c07-87c0-e495bffff8e2" name="Changes" comment="all done, only loading, httpError states and responsiveness left to be handled">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Cart/Cart.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Cart/Cart.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Layout/Layout.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Layout/Layout.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Cart/CartItem.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Cart/CartItem.module.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/Layout/MainHeader.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Layout/MainHeader.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/Layout/MainHeader.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Layout/MainHeader.module.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Shop/ProductItem.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Shop/CigarProducts/CigarProductItem.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Shop/ProductItem.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Shop/CigarProducts/CigarProductItem.module.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Shop/Products.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Shop/CigarProducts/CigarProducts.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Shop/Products.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Shop/CigarProducts/CigarProducts.module.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/store/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/store/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Shop/CigarProducts/CigarProductItem.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Shop/CigarProducts/CigarProductItem.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Shop/CigarProducts/CigarProducts.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Shop/CigarProducts/CigarProducts.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Shop/CigarProducts/CigarProducts.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Shop/CigarProducts/CigarProducts.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Shop/WiskeyProducts/WhiskeyProducts.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Shop/WiskeyProducts/WhiskeyProducts.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Shop/WiskeyProducts/WhiskeyProducts.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Shop/WiskeyProducts/WhiskeyProducts.module.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -55,7 +45,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "/home/boris/Documents/backup-25.10.2022/b/react/course/quotes-router-app",
+    "last_opened_file_path": "/home/boris/Documents/backup-25.10.2022/b/react/course2/stock-chart-app",
     "list.type.of.created.stylesheet": "CSS",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
@@ -91,7 +81,7 @@
       <workItem from="1676829499362" duration="11353000" />
       <workItem from="1676905780959" duration="1600000" />
       <workItem from="1677090404190" duration="22066000" />
-      <workItem from="1677170874092" duration="3466000" />
+      <workItem from="1677170874092" duration="13961000" />
     </task>
     <task id="LOCAL-00001" summary="finished with minor errors">
       <created>1676845243594</created>
@@ -107,7 +97,14 @@
       <option name="project" value="LOCAL" />
       <updated>1676853680997</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="all done, only loading, httpError states and responsiveness left to be handled">
+      <created>1677176371488</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1677176371488</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -127,6 +124,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="finished with minor errors" />
     <MESSAGE value="bugfix, some warnings left to be handled" />
-    <option name="LAST_COMMIT_MESSAGE" value="bugfix, some warnings left to be handled" />
+    <MESSAGE value="all done, only responsiveness left to be handled" />
+    <MESSAGE value="all done, only loading, httpError states and responsiveness left to be handled" />
+    <option name="LAST_COMMIT_MESSAGE" value="all done, only loading, httpError states and responsiveness left to be handled" />
   </component>
 </project>
