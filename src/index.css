@@ -1,9 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;700&display=swap');
 
-* {
-  box-sizing: border-box;
-
-}
 
 html {
   font-family: 'Noto Sans JP', sans-serif;
@@ -11,8 +7,11 @@ html {
 
 body {
   margin: 0;
+  padding: 0;
+  width: 100% !important;
   background: url(assets/bckg.jpeg) no-repeat center center fixed;
   background-size: cover;
+  word-wrap: break-word;
 }
 
 button {

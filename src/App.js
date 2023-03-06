@@ -1,7 +1,7 @@
 import Cart from './components/Cart/Cart';
 import Layout from './components/Layout/Layout';
 import {useDispatch, useSelector} from "react-redux";
-import {Fragment, useEffect} from "react";
+import {useEffect} from "react";
 import Notification from "./components/UI/Notification";
 import {fetchCartData, sendCartData} from "./store/cart-actions";
 
@@ -30,7 +30,7 @@ const App = () => {
     }, [cart, dispatch]);
 
     return (
-        <Fragment>
+        <div>
             {notification && <Notification
                 status={notification.status}
                 title={notification.title}
@@ -38,9 +38,8 @@ const App = () => {
             />}
             <Layout>
                 {renderUICart && <Cart/>}
-
             </Layout>
-        </Fragment>
+        </div>
     );
 }
 

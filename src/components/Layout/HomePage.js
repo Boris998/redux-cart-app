@@ -1,19 +1,27 @@
-import {Fragment} from "react";
 import classes from "./HomePage.module.css";
 import {NavLink} from "react-router-dom";
+import {Grid} from "@mui/material";
 
 const HomePage = () => {
-    return <Fragment>
-        <div className={classes.products}>
-            <NavLink to='/cigar' className={classes.cigars}>
+    return <Grid container sx={{
+        marginTop: '10vh 0',
+        backgroundColor: 'rgba(134, 24, 24, 0.25)',
+        fontSize: '30px',
+        padding: '10vh 0',
+        maxWidth: '100%'
+    }}>
+        <Grid item xs={6} className={classes.cigars} align={'center'}>
+            <NavLink to='/cigar'>
                 <p>Best cigar selection for 2023</p>
             </NavLink>
+        </Grid>
 
-            <NavLink to='/whiskey' className={classes.whiskeys}>
+        <Grid item xs={6} className={classes.whiskeys} align={'center'}>
+            <NavLink to='/whiskey'>
                 <p>High-End Classy Whiskey picks</p>
             </NavLink>
-        </div>
-    </Fragment>
+        </Grid>
+    </Grid>;
 }
 
 export default HomePage;

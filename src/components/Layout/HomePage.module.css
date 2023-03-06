@@ -1,52 +1,41 @@
-.products {
-    margin-top: 10vh;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    background-color: rgba(134, 24, 24, 0.25);
-    color: rgba(245, 245, 245, 0.65);
-    font-size: 30px;
-    padding: 10vh;
-}
 
-.products .cigars{
-    background: url(../../assets/cigar-home.jpeg);
+.cigars{
+    background: url(../../assets/cigar-home.jpeg) no-repeat center;
     background-size: cover;
-    position: relative;
-    height: 50vh;
-    width: 80vh;
+    /*position: relative;*/
+    height: 60vh;
+    width: 45vw;
     border-radius: 30px;
     transition: all .5s ease;
 }
 
-.products .cigars:hover {
+.cigars:hover {
     transform: scale(1.05);
 }
 
-.products .whiskeys{
-    background: url(../../assets/whiskey-home.avif) no-repeat center center;
+.whiskeys{
+    background: url(../../assets/whiskey-home.avif) no-repeat center;
     background-size: cover;
-    position: relative;
-    height: 50vh;
-    width: 80vh;
+    /*position: relative;*/
+    height: 60vh;
+    width: 45vh;
     border-radius: 30px;
     transition: all .5s ease;
 }
 
-.products .whiskeys:hover {
+.whiskeys:hover {
     transform: scale(1.05);
 }
 
-.products .whiskeys p{
-    position: absolute;
+.whiskeys p{
     bottom: 0;
     left: 2vh;
     color: rgb(255, 210, 210);
     font-weight: bolder;
 }
 
-.products .cigars p{
-    position: absolute;
+.cigars p{
+    /*position: absolute;*/
     bottom: 0;
     left: 2vh;
     color: rgb(255, 210, 210);

@@ -60,15 +60,15 @@ const WhiskeyProducts = () => {
 
 
     const whiskeyList = whiskey.map(whiskey =>
-        <WhiskeyProductItem
-            key={whiskey.id}
-            id={whiskey.id}
-            title={whiskey.title}
-            price={whiskey.price}
-            alcohol={whiskey.alcohol}
-            description={whiskey.description}
-            image={whiskey.image}
-        />
+                <WhiskeyProductItem
+                    key={whiskey.id}
+                    id={whiskey.id}
+                    title={whiskey.title}
+                    price={whiskey.price}
+                    alcohol={whiskey.alcohol}
+                    description={whiskey.description}
+                    image={whiskey.image}
+                />
     );
 
     return (
@@ -79,9 +79,7 @@ const WhiskeyProducts = () => {
                 <option value="low-high">Sort price (low-high)</option>
                 <option value="high-low">Sort price (high-low)</option>
             </select>
-            <ul>
                 {isLoading || whiskeyList}
-            </ul>
         </section>
     );
 };

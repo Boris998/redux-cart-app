@@ -4,7 +4,32 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="727b4407-d121-4c07-87c0-e495bffff8e2" name="Changes" comment="a sorting feature added" />
+    <list default="true" id="727b4407-d121-4c07-87c0-e495bffff8e2" name="Changes" comment="a sorting feature added">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Cart/Cart.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Cart/Cart.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Cart/CartButton.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Cart/CartButton.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Cart/CartItem.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Cart/CartItem.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Cart/CartItem.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Cart/CartItem.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Layout/HomePage.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Layout/HomePage.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Layout/HomePage.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Layout/HomePage.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Layout/Layout.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Layout/Layout.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Layout/MainHeader.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Layout/MainHeader.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Layout/MainHeader.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Layout/MainHeader.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Shop/CigarProducts/CigarProductItem.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Shop/CigarProducts/CigarProductItem.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Shop/CigarProducts/CigarProductItem.module.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Shop/CigarProducts/CigarProducts.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Shop/CigarProducts/CigarProducts.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Shop/CigarProducts/CigarProducts.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Shop/CigarProducts/CigarProducts.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Shop/WiskeyProducts/WhiskeyProductItem.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Shop/WiskeyProducts/WhiskeyProductItem.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Shop/WiskeyProducts/WhiskeyProductItem.module.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Shop/WiskeyProducts/WhiskeyProducts.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Shop/WiskeyProducts/WhiskeyProducts.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Shop/WiskeyProducts/WhiskeyProducts.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Shop/WiskeyProducts/WhiskeyProducts.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/UI/Card.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/UI/Card.module.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/UI/Notification.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/UI/Notification.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.css" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -35,14 +60,14 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "/home/boris/Documents/backup-25.10.2022/b/react/course2/stock-chart-app",
+    "last_opened_file_path": "/home/boris/Downloads/omnifood-master",
     "list.type.of.created.stylesheet": "CSS",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
-    "ts.external.directory.path": "/home/boris/.local/share/JetBrains/Toolbox/apps/WebStorm/ch-0/222.4345.14/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external",
+    "ts.external.directory.path": "/home/boris/.local/share/JetBrains/Toolbox/apps/WebStorm/ch-0/223.8214.51/plugins/javascript-impl/jsLanguageServicesImpl/external",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -72,6 +97,13 @@
       <workItem from="1676905780959" duration="1600000" />
       <workItem from="1677090404190" duration="22066000" />
       <workItem from="1677170874092" duration="14079000" />
+      <workItem from="1677453413591" duration="241000" />
+      <workItem from="1677539564475" duration="1603000" />
+      <workItem from="1677610025663" duration="2146000" />
+      <workItem from="1677679683030" duration="6539000" />
+      <workItem from="1677769110192" duration="21332000" />
+      <workItem from="1677848909653" duration="7827000" />
+      <workItem from="1678040303628" duration="5065000" />
     </task>
     <task id="LOCAL-00001" summary="finished with minor errors">
       <created>1676845243594</created>
@@ -101,7 +133,21 @@
       <option name="project" value="LOCAL" />
       <updated>1677207868190</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="a sorting feature added">
+      <created>1677453442874</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1677453442874</updated>
+    </task>
+    <task id="LOCAL-00006" summary="a sorting feature added">
+      <created>1677453523618</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1677453523618</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

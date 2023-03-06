@@ -86,9 +86,7 @@ const CigarProducts = () => {
                 <option value="low-high">Sort price (low-high)</option>
                 <option value="high-low">Sort price (high-low)</option>
             </select>
-            <ul>
                 {isLoading || cigarList}
-            </ul>
         </section>
     );
 };

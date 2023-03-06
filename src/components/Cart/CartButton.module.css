@@ -2,6 +2,7 @@
   background-color: transparent;
   border-color: #ff6e6e;
   color: #943b3b;
+  width:100%;
 }
 
 .button:hover,
@@ -16,6 +17,8 @@
 .badge {
   background-color: #ff6e6e;
   border-radius: 30px;
-  padding: 0.15rem 1.25rem;
+  padding: 3px 10px;
+  margin-left: 5px;
   color: #1d1d1d;
+  max-width: 100%;
 }
