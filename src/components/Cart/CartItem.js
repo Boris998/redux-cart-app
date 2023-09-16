@@ -18,7 +18,12 @@ const CartItem = (props) => {
     };
 
     return (
-        <Grid container sx={{background: '#575757', padding: '1.5vh', borderBottom: '10px solid rgba(255,110,110,0.6)'}}>
+        <Grid container sx={{background: '#575757',
+            padding: '1.5vh',
+            borderBottom: '10px solid rgba(255,110,110,0.6)',
+            borderRadius: '25px',
+            marginBottom: '10px'
+        }}>
             <Grid container>
                 <Grid item xs={8} component={'h2'}>{title}</Grid>
                 <Grid item xs={4} component={'h2'} align={'right'}>

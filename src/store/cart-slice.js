@@ -5,17 +5,20 @@ const cartSlice = createSlice({
     initialState: {
         items: [],
         totalQuantity: 0,
-        changed: false
+        changed: false,
+        totalAmount: 0
     },
     reducers: {
         replaceCart(state, action) {
             state.totalQuantity = action.payload.totalQuantity;
+            state.totalAmount = action.payload.totalAmount;
             state.items = action.payload.items;
         },
         addItemToCart(state, action) {
             const newItem = action.payload;
             console.log(newItem);
             const existingItem = state.items.find((item) => item.id === newItem.id);
+
             state.totalQuantity++;
             state.changed = true;
             if (!existingItem) {
@@ -26,9 +29,11 @@ const cartSlice = createSlice({
                     totalPrice: newItem.price,
                     title: newItem.title,
                 });
+                state.totalAmount += newItem.price;
             } else {
                 existingItem.quantity++;
-                existingItem.totalPrice = existingItem.totalPrice + newItem.price;
+                existingItem.totalPrice += newItem.price;
+                state.totalAmount += existingItem.price;
             }
         },
         removeItemFromCart(state, action) {
@@ -36,12 +41,19 @@ const cartSlice = createSlice({
             const existingItem = state.items.find((item) => item.id === id);
             state.totalQuantity--;
             state.changed = true;
+            state.totalAmount -= existingItem.price;
             if (existingItem.quantity === 1) {
                 state.items = state.items.filter((item) => item.id !== id);
             } else {
                 existingItem.quantity--;
                 existingItem.totalPrice = existingItem.totalPrice - existingItem.price;
             }
+        },
+        clearCart(state, action) {
+            state.items = [];
+            state.totalQuantity = 0;
+            state.totalAmount = 0;
+            state.changed = true; // You can set this to true if needed
         },
     },
 });

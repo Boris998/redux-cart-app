@@ -4,6 +4,8 @@ import {useEffect, useState} from "react";
 
 const url = 'https://react-http-6fb98-default-rtdb.firebaseio.com/cigars.json';
 
+
+
 const CigarProducts = () => {
 
     const [cigars, setCigars] = useState([]);
@@ -25,6 +27,7 @@ const CigarProducts = () => {
             const loadedCigars = [];
 
             for (const key in resData) {
+
                 loadedCigars.push({
                     id: key,
                     title: resData[key].name,

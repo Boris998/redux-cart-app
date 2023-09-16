@@ -19,7 +19,7 @@ const ProductItem = (props) => {
     return (
         <Grid item xs={12} sx={{
             margin: '1rem auto',
-            width: {xl: '40vw' ,lg: '60vw', md: '75vw', sm: '95vw'},
+            width: {xl: '40vw', lg: '60vw', md: '75vw', sm: '95vw'},
             borderRadius: '10px',
             padding: '1vh',
             background: 'rgba(225, 181, 71, 0.9)'
@@ -42,17 +42,18 @@ const ProductItem = (props) => {
                 </Grid>
             </Grid>
             <Grid container item xs={12}>
-                <Grid item xs={6} align={'left'} sx={{
-                    color: '#383c57',
-                    fontSize: '20px',
-                    padding: '30px 0 0 10px',
-                }}>
+                <Grid item xs={12}
+                      align={'left'}
+                      sx={{
+                          color: '#383c57',
+                          fontSize: '20px',
+                          padding: '30px 0 0 10px',
+                          backgroundImage: `url(${props.image})`,
+                          backgroundSize: 'cover',
+                          backgroundPosition: 'center',
+                      }}>
                     <Typography variant={'h5'}>{props.description}</Typography>
                     <Grid item xs={12} sx={{color: '#943b3b', paddingTop: '30px'}}>Alcohol: %{props.alcohol}</Grid>
-                </Grid>
-                <Grid item xs={6} align={'center'} flex={1}>
-                    <img style={{height: '100%',
-                        width: '100%'}} src={props.image} alt='asd'/>
                 </Grid>
             </Grid>
             <Grid item align={'center'} sx={{padding: '20px 0'}}>
@@ -63,3 +64,5 @@ const ProductItem = (props) => {
 };
 
 export default ProductItem;
+/*
+,*/

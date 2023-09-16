@@ -19,7 +19,8 @@ export const fetchCartData = () => {
             dispatch(cartActions.replaceCart({
                 //never end up with items being undefined
                 items: cartData.items || [],
-                totalQuantity: cartData.totalQuantity
+                totalQuantity: cartData.totalQuantity,
+                totalAmount: cartData.totalAmount
             }));
         } catch (e) {
             dispatch(uiActions.showNotification({
@@ -44,7 +45,8 @@ export const sendCartData = (cart) => {
                 method: 'PUT',
                 body: JSON.stringify({
                     items: cart.items || [],
-                    totalQuantity: cart.totalQuantity
+                    totalQuantity: cart.totalQuantity,
+                    totalAmount: cart.totalAmount
                 })
             });
 
@@ -66,6 +68,48 @@ export const sendCartData = (cart) => {
                 status: 'error',
                 title: 'Error!',
                 message: 'Sending cart data failed!',
+            }));
+        }
+    };
+};
+
+export const submitOrderHandler = (order) => {
+    return async (dispatch) => {
+        dispatch(uiActions.showNotification({
+            status: 'pending order',
+            title: 'Sending order...',
+            message: 'Sending order data!!!',
+        }));
+
+        const sendReq = async () => {
+            const response = await fetch('https://react-http-6fb98-default-rtdb.firebaseio.com/orders.json', {
+                method: 'POST',
+                body: JSON.stringify({
+                    user: order,
+                    orderedItems: order.items || [],
+                    totalQuantity: order.totalQuantity,
+                    totalAmount: order.totalAmount
+                })
+            });
+
+            if (!response.ok) {
+                throw new Error('sending cart data failed');
+            }
+        };
+
+        try {
+            await sendReq();
+
+            dispatch(uiActions.showNotification({
+                status: 'success',
+                title: 'Success!',
+                message: 'Sending order data successfully!',
+            }));
+        } catch (e) {
+            dispatch(uiActions.showNotification({
+                status: 'error',
+                title: 'Error!',
+                message: 'Sending order data failed!',
             }));
         }
     };
