@@ -18,7 +18,7 @@ const Cart = () => {
     }
 
     const items = cartItems.map(item =>
-        <Grid item xs={12} key={item.id} sx={{listStyleType: 'none',}}>
+        <Grid item xs={12} key={item.id} sx={{listStyleType: 'none'}}>
             <CartItem
                 key={item.id}
                 item={{

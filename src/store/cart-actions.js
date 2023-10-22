@@ -95,6 +95,9 @@ export const submitOrderHandler = (order) => {
             if (!response.ok) {
                 throw new Error('sending cart data failed');
             }
+
+            dispatch(cartActions.clearCart());
+            dispatch(uiActions.toggle());
         };
 
         try {

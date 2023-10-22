@@ -4,18 +4,49 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="727b4407-d121-4c07-87c0-e495bffff8e2" name="Changes" comment="[RCA] responsiveness sorted for all distinct screen sizes">
-      <change afterPath="$PROJECT_DIR$/src/components/Cart/Checkout.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Cart/Checkout.module.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/hooks/use-input.js" afterDir="false" />
+    <list default="true" id="727b4407-d121-4c07-87c0-e495bffff8e2" name="Changes" comment="some minor fixes with the cart">
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/redux-cart-app.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/redux-cart-app.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/favicon.ico" beforeDir="false" afterPath="$PROJECT_DIR$/public/favicon.ico" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/public/manifest.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/robots.txt" beforeDir="false" afterPath="$PROJECT_DIR$/public/robots.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/bckg.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/bckg.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/cigar-home.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/cigar-home.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/whiskey-home.avif" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/whiskey-home.avif" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/Cart/Cart.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Cart/Cart.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Cart/Cart.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Cart/Cart.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Cart/CartButton.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Cart/CartButton.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/Cart/CartButton.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Cart/CartButton.module.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/Cart/CartItem.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Cart/CartItem.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Cart/CartItem.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Cart/CartItem.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Cart/Checkout.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Cart/Checkout.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Cart/Checkout.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Cart/Checkout.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Layout/HomePage.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Layout/HomePage.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Layout/HomePage.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Layout/HomePage.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Layout/Layout.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Layout/Layout.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Layout/MainHeader.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Layout/MainHeader.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Layout/MainHeader.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Layout/MainHeader.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Shop/CigarProducts/CigarProductItem.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Shop/CigarProducts/CigarProductItem.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/Shop/CigarProducts/CigarProducts.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Shop/CigarProducts/CigarProducts.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Shop/CigarProducts/CigarProducts.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Shop/CigarProducts/CigarProducts.module.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/Shop/WiskeyProducts/WhiskeyProductItem.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Shop/WiskeyProducts/WhiskeyProductItem.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Shop/WiskeyProducts/WhiskeyProducts.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Shop/WiskeyProducts/WhiskeyProducts.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Shop/WiskeyProducts/WhiskeyProducts.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Shop/WiskeyProducts/WhiskeyProducts.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/UI/Notification.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/UI/Notification.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/UI/Notification.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/UI/Notification.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/hooks/use-input.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/hooks/use-input.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/store/cart-actions.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/store/cart-actions.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/store/cart-slice.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/store/cart-slice.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/store/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/store/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/store/ui-slice.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/store/ui-slice.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -33,6 +64,20 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "Boris998"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings">
+    <option name="selectedUrlAndAccountId">
+      <UrlAndAccount>
+        <option name="accountId" value="29b3cbbd-d9df-4321-9255-e422f281f2c4" />
+        <option name="url" value="https://github.com/Boris998/redux-cart-app.git" />
+      </UrlAndAccount>
+    </option>
+  </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
@@ -45,22 +90,23 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "/home/boris/Documents/backup-25.10.2022/b/react/venko/fork-menu-app",
-    "list.type.of.created.stylesheet": "CSS",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "ts.external.directory.path": "/home/boris/.local/share/JetBrains/Toolbox/apps/WebStorm/ch-0/232.9559.58/plugins/javascript-impl/jsLanguageServicesImpl/external",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/home/boris/Documents/backup-25.10.2022/b/react/finish it/thegoodlife-concierge-app&quot;,
+    &quot;list.type.of.created.stylesheet&quot;: &quot;CSS&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;ts.external.directory.path&quot;: &quot;/home/boris/.local/share/JetBrains/Toolbox/apps/webstorm/plugins/javascript-impl/jsLanguageServicesImpl/external&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/components/Cart" />
@@ -116,7 +162,14 @@
       <workItem from="1694809555858" duration="2438000" />
       <workItem from="1694812027824" duration="1803000" />
       <workItem from="1694866348590" duration="8758000" />
-      <workItem from="1694877317919" duration="3759000" />
+      <workItem from="1694877317919" duration="4914000" />
+      <workItem from="1695048367377" duration="654000" />
+      <workItem from="1696031180560" duration="62000" />
+      <workItem from="1696260679019" duration="99000" />
+      <workItem from="1696352530569" duration="84000" />
+      <workItem from="1697845842855" duration="5151000" />
+      <workItem from="1697881332627" duration="604000" />
+      <workItem from="1697984368211" duration="4548000" />
     </task>
     <task id="LOCAL-00001" summary="finished with minor errors">
       <created>1676845243594</created>
@@ -167,7 +220,15 @@
       <option name="project" value="LOCAL" />
       <updated>1678143510732</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="[RCA] CHECKOUT FIXED">
+      <option name="closed" value="true" />
+      <created>1694882738916</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1694882738916</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -191,6 +252,8 @@
     <MESSAGE value="all done, only loading, httpError states and responsiveness left to be handled" />
     <MESSAGE value="a sorting feature added" />
     <MESSAGE value="[RCA] responsiveness sorted for all distinct screen sizes" />
-    <option name="LAST_COMMIT_MESSAGE" value="[RCA] responsiveness sorted for all distinct screen sizes" />
+    <MESSAGE value="[RCA] CHECKOUT FIXED" />
+    <MESSAGE value="some minor fixes with the cart" />
+    <option name="LAST_COMMIT_MESSAGE" value="some minor fixes with the cart" />
   </component>
 </project>

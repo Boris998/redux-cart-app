@@ -5,7 +5,6 @@ import {useEffect, useState} from "react";
 const url = 'https://react-http-6fb98-default-rtdb.firebaseio.com/cigars.json';
 
 
-
 const CigarProducts = () => {
 
     const [cigars, setCigars] = useState([]);
